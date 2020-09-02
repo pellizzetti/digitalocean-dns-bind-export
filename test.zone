@@ -1,0 +1,40 @@
+$ORIGIN rocketseat.com.br.
+$TTL 1800
+rocketseat.com.br. IN SOA ns1.digitalocean.com. hostmaster.rocketseat.com.br. 1599002606 10800 3600 604800 1800
+rocketseat.com.br. 1800 IN NS ns1.digitalocean.com.
+rocketseat.com.br. 1800 IN NS ns2.digitalocean.com.
+rocketseat.com.br. 1800 IN NS ns3.digitalocean.com.
+rocketseat.com.br. 3600 IN A 64.225.27.141
+zb14956424.rocketseat.com.br. 1800 IN CNAME zmverify.zoho.com.
+rocketseat.com.br. 1800 IN TXT v=spf1 include:zoho.com include:spf.mandrillapp.com ~all
+rocketseat.com.br. 1800 IN MX 10 mx.zoho.com.
+rocketseat.com.br. 1800 IN MX 20 mx2.zoho.com.
+rocketseat.com.br. 1800 IN TXT google-site-verification=_FRRWzQOZkTv6EjfEkxQpm4A2LNTb0RKcDOd923hdnk
+mandrill._domainkey.rocketseat.com.br. 3600 IN TXT v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;
+scph0717._domainkey.rocketseat.com.br. 3600 IN TXT v=DKIM1; k=rsa; h=sha256; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCidFOqnFW2LAklTcCsnm6+TrKvTrNYvN3TWkonbcbylA9lBbCxdXrCJy9cVeroHD/D04YheGq2PT3nYsLfHWjenqp5NkebmS2CL+m2z4++ZPH4r98Hat9ksJePTXXEfyAxXedD4OongQn5bzplgxU+UbbFFBp0Pgjp7lA4BroP+QIDAQAB
+mail.rocketseat.com.br. 3600 IN CNAME u6143801.wl052.sendgrid.net.
+s1._domainkey.rocketseat.com.br. 3600 IN CNAME s1.domainkey.u6143801.wl052.sendgrid.net.
+s2._domainkey.rocketseat.com.br. 3600 IN CNAME s2.domainkey.u6143801.wl052.sendgrid.net.
+_amazonses.rocketseat.com.br. 3600 IN TXT pg8iNVIjRkJLa7G+vrP4uiV3NlLVPe/eyFluLjQCWv4=
+wekz6sib5565rjkurvyj6sdsvbpznkpq._domainkey.rocketseat.com.br. 43200 IN CNAME wekz6sib5565rjkurvyj6sdsvbpznkpq.dkim.amazonses.com.
+nit2evvfzag5edqjsszklzcy74736l6g._domainkey.rocketseat.com.br. 43200 IN CNAME nit2evvfzag5edqjsszklzcy74736l6g.dkim.amazonses.com.
+6vbndgbjl2h24mgoq42hmoc3yrwgzinh._domainkey.rocketseat.com.br. 43200 IN CNAME 6vbndgbjl2h24mgoq42hmoc3yrwgzinh.dkim.amazonses.com.
+m.rocketseat.com.br. 14400 IN MX 10 feedback-smtp.us-east-1.amazonses.com.
+m.rocketseat.com.br. 3600 IN TXT "v=spf1 include:amazonses.com ~all"
+comunidade.rocketseat.com.br. 3600 IN A 64.225.27.141
+o1.mail.rocketseat.com.br. 3600 IN A 168.245.17.26
+game.rocketseat.com.br. 3600 IN A 104.236.225.7
+blog.rocketseat.com.br. 3600 IN A 159.89.147.228
+skylab.rocketseat.com.br. 3600 IN A 34.107.168.154
+help.rocketseat.com.br. 3600 IN CNAME rocketseat.freshdesk.com.
+fdkey.help.rocketseat.com.br. 3600 IN TXT f3d43afee9e0b68f67d85d528ebf12d3
+certificado.rocketseat.com.br. 3600 IN A 64.225.27.141
+app.rocketseat.com.br. 60 IN A 34.107.168.154
+rsxp.rocketseat.com.br. 3600 IN A 64.225.27.141
+manutencao.rocketseat.com.br. 3600 IN A 64.225.27.141
+www.rocketseat.com.br. 3600 IN A 64.225.27.141
+rocketseat.com.br. 3600 IN TXT google-site-verification=k3T4Ra1UnXHO43HmE4D5_diKi-ErNkYX6qu1qfKYJSM
+metabase.rocketseat.com.br. 3600 IN A 64.225.27.141
+pages.rocketseat.com.br. 3600 IN A 64.225.27.141
+reactdeploy.rocketseat.com.br. 43200 IN CNAME boring-wing-12e4ac.netlify.app.
+_github-challenge-rocketseat.rocketseat.com.br. 100 IN TXT 431ec07834

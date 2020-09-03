@@ -11,6 +11,9 @@ builds:
       - windows
 archives:
 - name_template: '{{.ProjectName}}_{{.Version}}_{{.Os}}-{{.Arch}}'
+  format_overrides:
+    - goos: windows
+      format: zip
   replacements:
     darwin: Darwin
     linux: Linux
